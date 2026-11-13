@@ -1,0 +1,36 @@
+# ==============================================================================
+# OrbisERP AI Layer — Step 3B Requirements
+# ==============================================================================
+
+# FastAPI Backend & Web Framework
+fastapi>=0.115.0,<1.0.0
+uvicorn[standard]>=0.32.0,<1.0.0
+pydantic-settings>=2.6.0,<3.0.0
+httpx>=0.28.0,<1.0.0
+python-dotenv>=1.0.1,<2.0.0
+python-multipart>=0.0.18,<1.0.0
+
+# ERPNext REST API Integration
+requests>=2.32.0,<3.0.0
+
+# LLM Inference (Groq Cloud)
+# Note: Ollama is accessed directly via local HTTP REST (http://localhost:11434)
+groq>=0.15.0,<1.0.0
+
+# Audio I/O & Signal Processing
+numpy>=1.26.0,<3.0.0
+scipy>=1.13.0,<2.0.0
+sounddevice>=0.4.6,<1.0.0
+soundfile>=0.14.0,<1.0.0
+
+# Machine Learning & Runtimes (CPU)
+torch>=2.7.0,<3.0.0
+torchaudio>=2.7.0,<3.0.0
+onnxruntime>=1.14.0,<2.0.0
+
+# Voice Processing Pipeline
+openwakeword>=0.6.0,<1.0.0
+webrtcvad-wheels>=2.0.14,<3.0.0
+faster-whisper>=1.0.0,<2.0.0
+speechbrain>=1.0.0,<2.0.0
+edge-tts>=6.1.0,<8.0.0

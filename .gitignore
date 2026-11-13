@@ -1,2 +1,51 @@
+# Environment secrets
+.env
+.env.*
+*.env
+!.env.example
+ai-backend/.env
+ai-backend/.env.*
 
+# Python bytecode and caches
+__pycache__/
 scripts/__pycache__/
+ai-backend/__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+ai-backend/.venv/
+
+# Credentials and private keys
+*.pem
+*.key
+*.p12
+*.pfx
+secrets/
+credentials/
+
+# Voice biometric data
+voice_profiles/
+voice_profiles.db
+*.embedding
+*.embeddings
+*.voiceprint
+
+# Raw authentication recordings
+voice_recordings/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# IDE and editors
+.idea/
+.vscode/
+*.swp
+*.swo

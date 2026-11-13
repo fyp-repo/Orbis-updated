@@ -1,0 +1,40 @@
+{
+  "company": "Orbis Car Manufacturing (Pvt.) Ltd.",
+  "currency": "PKR",
+  "selling_price_list": "Standard Selling",
+  "sales_taxes_and_charges": "Pakistan Tax - OCM",
+  "item_code": "92",
+  "expected_unit_rate": 5000000,
+  "warehouse": "Finished Goods - OCM",
+  "quantity": 1,
+  "quote_valid_days": 30,
+  "sales_order_delivery_days": 14,
+  "customers": [
+    {
+      "customer_name": "DEMO - Lahore Auto Traders",
+      "email_id": "lahore.auto.traders@example.com",
+      "city": "Lahore"
+    },
+    {
+      "customer_name": "DEMO - Karachi Mobility Group",
+      "email_id": "karachi.mobility.group@example.com",
+      "city": "Karachi"
+    },
+    {
+      "customer_name": "DEMO - Islamabad Fleet Solutions",
+      "email_id": "islamabad.fleet.solutions@example.com",
+      "city": "Islamabad"
+    },
+    {
+      "customer_name": "DEMO - Rawalpindi Motor House",
+      "email_id": "rawalpindi.motor.house@example.com",
+      "city": "Rawalpindi"
+    },
+    {
+      "customer_name": "DEMO - Faisalabad Vehicle Centre",
+      "email_id": "faisalabad.vehicle.centre@example.com",
+      "city": "Faisalabad"
+    }
+  ]
+}
+
